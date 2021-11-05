@@ -1,0 +1,13 @@
+{
+    "name" : "saymyname",
+    "version" : "0.0.1",
+    "manifest_version" : 2,
+    "description" : "This will take an input as a name and say it.",
+     "icons" : {
+        "128" : "talking.png"
+    },
+    "browser_action" : {
+        "default_icon" : "talking.png",
+        "default_popup" : "popup.html"
+    }
+}
